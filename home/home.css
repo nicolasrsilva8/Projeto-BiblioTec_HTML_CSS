@@ -1,44 +1,6 @@
 /* CABEÇALHO */
 
-a {
-    color: var(--branco);
-    text-decoration: none;
-}
 
-.cabecalho {
-    background-color: var(--azul-escuro);
-
-    display: flex;
-    /* flex-direction: row; */
-    /* por padrão o flex vem na direção row/linha */
-
-    /* alinha no sentido do flex */
-    justify-content: space-between;
-
-    /* alinha no sentido contrário do flex */
-    align-items: center;
-
-    padding: 0 120px;
-
-    height: 10vh;
-    /* 10% da visualização vertical do dispositivo/navegador*/
-}
-
-.navegacao {
-    display: flex;
-    align-items: center;
-
-    gap: 50px;
-}
-
-.navegacao a {
-    text-transform: uppercase;
-
-    /* 1rem -> equivale a 16px (padrão da raíz do HTML) */
-    /* em -> pega o tamanho da tipografia do elemento pai */
-    font-size: 1em;
-    font-weight: 500;
-}
 
 /* CONTEÚDO PRINCIPAL */
 
