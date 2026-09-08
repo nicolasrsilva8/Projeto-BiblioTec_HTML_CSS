@@ -13,10 +13,10 @@
     --branco: #FFFFFF;
     --cor-destaque: #2FD6CB;
     --fundos: #e9f0ef;
+    --texto: #535353
 }
 
-html
-{
+html {
     scroll-behavior: smooth;
 }
 
