@@ -227,7 +227,7 @@
 
 .cabecalho-lista {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     align-items: center;
 
@@ -252,9 +252,9 @@
     gap: 20px;
 }
 
-.livro {
+.lista {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     align-items: center;
     justify-items: center;
@@ -269,7 +269,7 @@
     font-size: 1em;
 }
 
-.livro p:nth-child(1) {
+.lista p:nth-child(1) {
     justify-self: flex-start;
 }
 
@@ -307,22 +307,6 @@ input[type="checkbox"]:checked::after {
     color: var(--branco);
     font-size: 20px;
     font-weight: 800;
-}
-
-.botao-acao {
-    border: none;
-    background-color: transparent;
-
-    color: var(--textos-paginas);
-
-    font-size: 25px;
-    transition: 0.3s;
-}
-
-.botao-acao:hover {
-    color: var(--cor-destaque);
-    transform: translateY(-1px);
-    cursor: pointer;
 }
 
 .rodape-listagem {
@@ -375,4 +359,14 @@ input[type="checkbox"]:checked::after {
 
     font-size: 0.8em;
     font-weight: 700;
+}
+
+.status-livro
+{
+    color: rgb(238, 155, 0);
+}
+
+.status-livro-ok
+{
+    color: rgb(144, 240, 0);
 }
